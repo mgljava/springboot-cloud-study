@@ -12,6 +12,7 @@ import org.springframework.context.annotation.Configuration;
 public class Application {
 
   public static void main(String[] args) {
+    System.out.println(Application.class.getClassLoader());
     SpringApplication.run(Application.class, args);
   }
 
