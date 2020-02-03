@@ -12,3 +12,6 @@ myConfig:
   myObject:
     myName: Monk
     myAge: 12
+
+myBean:
+  name: 张三
